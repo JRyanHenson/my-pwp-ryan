@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="My personal Website (PWP) Milestone-1" content="This is a documentation page for my PWP explaining the basic design choices for this website">
-		<title>My Personal Webstie (PWP) Milestone-1</title>
+		<title>My Personal Website (PWP) Milestone-1</title>
 	</head>
 	<body>
 		<h1>Ryan Henson's Personal Website (PWP) Milestone-1</h1>
