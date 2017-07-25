@@ -16,7 +16,7 @@
 		<h2>Persona</h2>
 			<p><strong>Name:</strong> Bob B. McCobb, CEO of Vulnerable Corp.<p>
 			<p><strong>Age:</strong> 62</p>
-			<p><strong>Technology:</strong> Windows novice user. Bob uses a Dell Optiplex 620 running Windows XP, and an flip phone with a limited data plan and a limited text plan.</p>
+			<p><strong>Technology:</strong> Windows novice user. Bob uses a Dell Optiplex 620 running Windows 7, and an flip phone with a limited data plan and a limited text plan. He uses Chrome because he read a few articles about the security vulnerabilities in IE.</p>
 			<p><strong>Attitudes and Behaviors:</strong> Bob is an intelligent, business minded baby boomer. He owns a small wealth management firm with 10 employees. He has had a hard time adjusting to the modern business technology. However, he is an avid reader and understands that his business is vulnerable to malicious attacks and is seeking the services of an information security consultant in order to complete a risk based security analysis of his business.</p>
 			<p><strong>Frustrations and Needs:</strong> Bob is frustrated by the lack of local consultants willing to take on a small business contract. He needs an experienced consultant who has both a technical background and understands risk analysis and security control frameworks.</p>
 			<p><strong>Goals:</strong> Bob wants to finds a capable consultant with proven experience. He is comfortable with simple easy to use websites that clearly state the relevant information about the consultant.</p>
