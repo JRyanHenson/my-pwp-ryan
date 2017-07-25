@@ -6,7 +6,7 @@
 		<title>My Personal Webstie (PWP) Milestone-1</title>
 	</head>
 	<body>
-		<h1><center>Ryan Henson's Personal Website (PWP) Milestone-1</center></h1>
+		<h1>Ryan Henson's Personal Website (PWP) Milestone-1</h1>
 		<h2>Purpose</h2>
 			<p>The purpose of this site is to exhibit my information security experience, development skills, and highlight some of my career successes.</p>
 		<h2>Audience</h2>
