@@ -16,6 +16,6 @@
 		<h2>Purpose and Strategy of Featured Content</h2>
 		<p>To serve as a gallery to showcase and promote my development skills and promote my experience in the information security field with the goal of obtaining consulting, freelance work, or a new full time job.</p>
 		<h2>Wireframes</h2>
-		<img src="/~jhenson9/my-pwp-ryan/public_html/images/wireframes.png" width="800" height="500" alt="pwp2_wirframe">
+		<img src="../images/wireframes.png" width="800" height="500" alt="pwp2_wirframe">
 	</body>
 </html>
