@@ -1,0 +1,45 @@
+nav {
+	padding: 1.5rem;
+	font-size: medium;
+}
+
+#welcome {
+	position: absolute;
+	color: white;
+	top: 20rem;
+	left: 5vh;
+}
+
+#particleground {
+	background-color: #000;
+	height: 50rem;
+}
+
+
+#section-2 {
+	background-color: lightgray;
+	padding: 0rem;
+}
+
+#section-3 {
+	background-color: white;
+	padding: 0rem;
+}
+
+#section-4{
+	background-color: lightgray;
+	padding: 1rem;
+}
+
+footer {
+	background-color: #000;
+	color: #fff;
+	padding: 2rem;
+}
+
+#egggif {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	display: none;
+}
