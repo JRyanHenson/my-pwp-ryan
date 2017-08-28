@@ -56,7 +56,7 @@
 						<ul class="nav navbar-nav navbar-left">
 							<li><a href="#">Home</a></li>
 							<li><a href="#section-2">About Me</a></li>
-							<li><a href="#section-3">Professional Experience</a></li>
+							<li><a href="#section-3">Portfolio</a></li>
 							<li><a href="#section-4">Contact</a></li>
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
@@ -72,12 +72,14 @@
 				<div class="container-fluid">
 					<div id="welcome">
 						<div class="row">
-							<div class="col-xs-4 col-md-2" >
-								<img src="https://www.fillmurray.com/300/300" class="img-responsive center-block img-rounded" alt="Responsive image">
+							<div class="col-xs-1 col-md-3">
+								<img src="https://www.fillmurray.com/150/150" class="img-responsive center-block img-rounded" alt="Responsive image">
 							</div>
+						</div>
+						<div class="row">
 							<div class="col-xs-8 col-md-10" >
-								<h1>Ryan Henson</h1>
-								<h2>Information Security Consultant and Developer</h2>
+								<h2>J. Ryan Henson</h2>
+								<h3>Information Security Consultant and Developer</h3>
 							</div>
 						</div>
 					</div>
@@ -86,29 +88,46 @@
 			<section id="section-2">
 				<div class="container-fluid">
 					<div class="row">
-						<div class="col-xs-12">
-							<h1>About Me</h1>
-							<p class="lead">Tote bag shabby chic locavore lumbersexual umami, subway tile gastropub messenger bag pork belly. Kogi narwhal scenester af, austin raw denim neutra cronut swag brooklyn retro polaroid palo santo. Four dollar toast bushwick af skateboard etsy craft beer freegan, taiyaki slow-carb wolf. Normcore master cleanse street art, 90's tilde enamel pin VHS williamsburg 8-bit tumeric. Gentrify gochujang keffiyeh, kinfolk small batch hot chicken helvetica. Plaid live-edge salvia, vice normcore unicorn gastropub. Hot chicken af poutine, thundercats echo park migas fanny pack literally +1 tumblr stumptown raclette viral.</p>
-							<p class="lead">Hell of venmo schlitz stumptown edison bulb. Narwhal blue bottle fashion axe succulents occupy gluten-free. Mlkshk pour-over marfa, normcore raclette prism copper mug photo booth neutra kickstarter letterpress leggings put a bird on it tofu. Flexitarian vegan air plant williamsburg, etsy marfa gochujang. Cronut jianbing DIY occupy humblebrag hoodie. Microdosing shabby chic cred keytar, raclette farm-to-table forage. Listicle chicharrones scenester squid.</p>
-							<p class="lead">Tote bag shabby chic locavore lumbersexual umami, subway tile gastropub messenger bag pork belly. Kogi narwhal scenester af, austin raw denim neutra cronut swag brooklyn retro polaroid palo santo. Four dollar toast bushwick af skateboard etsy craft beer freegan, taiyaki slow-carb wolf. Normcore master cleanse street art, 90's tilde enamel pin VHS williamsburg 8-bit tumeric. Gentrify gochujang keffiyeh, kinfolk small batch hot chicken helvetica. Plaid live-edge salvia, vice normcore unicorn gastropub. Hot chicken af poutine, thundercats echo park migas fanny pack literally +1 tumblr stumptown raclette viral.</p>
+						  <h2>About Me</h2>
+							<p>Hell of venmo schlitz stumptown edison bulb. Narwhal blue bottle fashion axe succulents occupy gluten-free. Mlkshk pour-over marfa,
+								normcore raclette prism copper mug photo booth neutra kickstarter letterpress leggings put a bird on it tofu. Flexitarian vegan air plant
+								williamsburg, etsy marfa gochujang. Cronut jianbing DIY occupy humblebrag hoodie. Microdosing shabby chic cred keytar, raclette
+								farm-to-table forage. Listicle chicharrones scenester squid.</p>
+					</div>
+					<div class="row">
+						<div class="col-xs-6" data-animate="fadeIn" data-animate-delay="400">
+							<div class="icon-box"><i class="fa fa-desktop fa-4x"></i></div>
+							<h5>Web Development</h5>
+							<p>Tote bag shabby chic locavore lumbersexual umami, subway tile gastropub messenger bag pork belly. Kogi
+								narwhal scenester af, austin raw denim neutra cronut swag brooklyn retro polaroid palo santo. Four dollar toast
+								bushwick af skateboard etsy craft beer freegan, taiyaki slow-carb wolf. Normcore master cleanse street art, 90's
+								tilde enamel pin VHS williamsburg 8-bit tumeric. Gentrify gochujang keffiyeh, kinfolk small batch hot chicken helvetica.</p>
+						</div>
+						<div class="col-xs-6" data-animate="fadeInRight" data-animate-delay="400">
+							<div class="icon-box"><i class="fa fa-lock fa-4x"></i></div>
+							<h5>Information Security</h5>
+							<p>Hell of venmo schlitz stumptown edison bulb. Narwhal blue bottle fashion axe succulents occupy gluten-free. Mlkshk pour-over marfa,
+								normcore raclette prism copper mug photo booth neutra kickstarter letterpress leggings put a bird on it tofu. Flexitarian vegan air plant
+								williamsburg, etsy marfa gochujang. Cronut jianbing DIY occupy humblebrag hoodie. Microdosing shabby chic cred keytar, raclette
+								farm-to-table forage. Listicle chicharrones scenester squid.</p>
 						</div>
 					</div>
-				</div>
-			</section>	\
+			</section>
 			<section id="section-3">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-xs-12">
-							<h1>Professional Experience</h1>
+							<h2>Recent Work</h2>
 							<p class="lead">Tote bag shabby chic locavore lumbersexual umami, subway tile gastropub messenger bag pork belly. Kogi narwhal scenester af, austin raw denim neutra cronut swag brooklyn retro polaroid palo santo. Four dollar toast bushwick af skateboard etsy craft beer freegan, taiyaki slow-carb wolf. Normcore master cleanse street art, 90's tilde enamel pin VHS williamsburg 8-bit tumeric. Gentrify gochujang keffiyeh, kinfolk small batch hot chicken helvetica. Plaid live-edge salvia, vice normcore unicorn gastropub. Hot chicken af poutine, thundercats echo park migas fanny pack literally +1 tumblr stumptown raclette viral.</p>
 							<p class="lead">Hell of venmo schlitz stumptown edison bulb. Narwhal blue bottle fashion axe succulents occupy gluten-free. Mlkshk pour-over marfa, normcore raclette prism copper mug photo booth neutra kickstarter letterpress leggings put a bird on it tofu. Flexitarian vegan air plant williamsburg, etsy marfa gochujang. Cronut jianbing DIY occupy humblebrag hoodie. Microdosing shabby chic cred keytar, raclette farm-to-table forage. Listicle chicharrones scenester squid.</p>
-							<p class="lead">Tote bag shabby chic locavore lumbersexual umami, subway tile gastropub messenger bag pork belly. Kogi narwhal scenester af, austin raw denim neutra cronut swag brooklyn retro polaroid palo santo. Four dollar toast bushwick af skateboard etsy craft beer freegan, taiyaki slow-carb wolf. Normcore master cleanse street art, 90's tilde enamel pin VHS williamsburg 8-bit tumeric. Gentrify gochujang keffiyeh, kinfolk small batch hot chicken helvetica. Plaid live-edge salvia, vice normcore unicorn gastropub. Hot chicken af poutine, thundercats echo park migas fanny pack literally +1 tumblr stumptown raclette viral.</p>
 						</div>
 					</div>
 				</div>
 			</section>
 			<section id="section-4">
-			<div class="container">
+			<div class="container-fluid">
+				<h2>Contact Section</h2>
+				<h4>Tell me about your unique security or development needs</h4>
 				<div class="row">
 					<div class="col-xs-12">
 						<!-- BEGIN CONTACT FORM -->
@@ -168,8 +187,9 @@
 		</main>
 	</body>
 		<footer>
-			<div class="container-fluid text-center">
-				This is the footer
+			<div class="footer">
+				Ryan Henson © 2017 | <a href="http://www.github.com/jryanhenson">github</a> | <a href="#section-3">portfolio</a> | <a href="#section-4">contact</a>
+			</div>
 			</div>
 		</footer>
 </html>

@@ -1,37 +1,81 @@
 nav {
-	padding: 1.5rem;
+	padding-left: 4rem;
+	padding-right: 4rem;
 	font-size: medium;
 }
 
 #welcome {
 	position: absolute;
 	color: white;
-	top: 20rem;
+	top: 12rem;
 	left: 5vh;
 }
 
 #particleground {
 	background-color: #000;
-	height: 50rem;
+	height: 40rem;
 }
 
 
 #section-2 {
+	text-align: center;
 	background-color: lightgray;
-	padding: 0rem;
+	padding: 3rem 4rem;
+}
+.icon-box {
+	position: relative;
+	width: 96px;
+	height: 96px;
+	padding: 16px 0 0 0;
+	margin: 0 auto 16px auto;
+	background: rgba(0, 0, 0, .4);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	cursor: pointer;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.icon-box:after {
+	top: 100%;
+	left: 50%;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(0, 0, 0, 0);
+	border-top-color: rgba(0, 0, 0, .4);
+	border-width: 10px;
+	margin-left: -10px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.icon-box:hover {
+	color: #fff;
+	background: rgba(0, 0, 0, .9);
+}
+
+.icon-box:hover:after {
+	border-top-color: rgba(0, 0, 0, .9);
 }
 
 #section-3 {
 	background-color: white;
-	padding: 0rem;
+	padding: 3rem 5rem;
 }
 
 #section-4{
 	background-color: lightgray;
-	padding: 1rem;
+	padding: 3rem 5rem;
 }
 
 footer {
+	text-align: center;
 	background-color: #000;
 	color: #fff;
 	padding: 2rem;
