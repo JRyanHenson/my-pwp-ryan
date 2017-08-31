@@ -1,6 +1,6 @@
 nav {
-	padding-left: 4rem;
-	padding-right: 4rem;
+	/*padding-left: 4rem;*/
+	/*padding-right: 4rem;*/
 	font-size: medium;
 }
 
@@ -8,7 +8,8 @@ nav {
 	position: absolute;
 	color: white;
 	top: 12rem;
-	left: 5vh;
+	/*left: 5vh;*/
+	padding: 2rem;
 }
 
 #particleground {

@@ -24,6 +24,18 @@
 		<!-- jQuery - required for Bootstrap Components -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 
+
+		<!-- jQuery Form, Additional Methods, Validate -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+
+		<!-- Your JavaScript Form Validator -->
+		<script src="js/form-validate.js"></script>
+
+		<!-- Google reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+
 		<!-- particleground -->
 		<script src="js/jquery.particleground.min.js" type="text/javascript"></script>
 
@@ -42,44 +54,44 @@
 	<body data-spy="scroll" data-target=".navbar-fixed-top">
 		<img id="egggif" src="https://media.giphy.com/media/DpXqHdILXRRDi/giphy.gif"/>
 		<header>
-			<div class="container-fluid">
 				<nav class="navbar navbar-default navbar-fixed-top">
-					<div class="navbar-header">
-						<!-- this is the mobile menu button -->
-						<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-menu">
-							<span class="sr-only">main menu</span>
-							<span class="glyphicon glyphicon-menu-hamburger"></span>
-						</button>
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<!-- this is the mobile menu button -->
+							<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-menu">
+								<span class="sr-only">main menu</span>
+								<span class="glyphicon glyphicon-menu-hamburger"></span>
+							</button>
+						</div>
+						<!-- Collect the nav links for toggling -->
+						<div class="collapse navbar-collapse" id="main-menu">
+							<ul class="nav navbar-nav navbar-left">
+								<li><a href="#">Home</a></li>
+								<li><a href="#section-2">About Me</a></li>
+								<li><a href="#section-3">Portfolio</a></li>
+								<li><a href="#section-4">Contact</a></li>
+							</ul>
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="https://github.com/jryanhenson/" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+								<li><a href="https://www.linkedin.com/in/j-ryan-henson-4415a2117/" target="_blank"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+							</ul>
+						</div><!-- /.navbar-collapse -->
 					</div>
-					<!-- Collect the nav links for toggling -->
-					<div class="collapse navbar-collapse" id="main-menu">
-						<ul class="nav navbar-nav navbar-left">
-							<li><a href="#">Home</a></li>
-							<li><a href="#section-2">About Me</a></li>
-							<li><a href="#section-3">Portfolio</a></li>
-							<li><a href="#section-4">Contact</a></li>
-						</ul>
-						<ul class="nav navbar-nav navbar-right">
-							<li><a href="https://github.com/jryanhenson/" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
-							<li><a href="https://www.linkedin.com/in/j-ryan-henson-4415a2117/" target="_blank"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
-						</ul>
-					</div><!-- /.navbar-collapse -->
 				</nav>
-			</div>
 		</header>
 		<main>
 			<section id="particleground">
 				<div class="container-fluid">
 					<div id="welcome">
 						<div class="row">
-							<div class="col-xs-1 col-md-3">
+							<div class="col-xs-4 col-md-5">
 								<img src="https://www.fillmurray.com/150/150" class="img-responsive center-block img-rounded" alt="Responsive image">
 							</div>
 						</div>
 						<div class="row">
-							<div class="col-xs-8 col-md-10" >
+							<div class="col-md-12" >
 								<h2>J. Ryan Henson</h2>
-								<h3>Information Security Consultant and Developer</h3>
+								<h4>Information Security Consultant and Developer</h4>
 							</div>
 						</div>
 					</div>
@@ -117,11 +129,43 @@
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-xs-12">
-							<h2>Recent Work</h2>
-							<p class="lead">Tote bag shabby chic locavore lumbersexual umami, subway tile gastropub messenger bag pork belly. Kogi narwhal scenester af, austin raw denim neutra cronut swag brooklyn retro polaroid palo santo. Four dollar toast bushwick af skateboard etsy craft beer freegan, taiyaki slow-carb wolf. Normcore master cleanse street art, 90's tilde enamel pin VHS williamsburg 8-bit tumeric. Gentrify gochujang keffiyeh, kinfolk small batch hot chicken helvetica. Plaid live-edge salvia, vice normcore unicorn gastropub. Hot chicken af poutine, thundercats echo park migas fanny pack literally +1 tumblr stumptown raclette viral.</p>
-							<p class="lead">Hell of venmo schlitz stumptown edison bulb. Narwhal blue bottle fashion axe succulents occupy gluten-free. Mlkshk pour-over marfa, normcore raclette prism copper mug photo booth neutra kickstarter letterpress leggings put a bird on it tofu. Flexitarian vegan air plant williamsburg, etsy marfa gochujang. Cronut jianbing DIY occupy humblebrag hoodie. Microdosing shabby chic cred keytar, raclette farm-to-table forage. Listicle chicharrones scenester squid.</p>
+							<h2>Portfolio</h2>
 						</div>
-					</div>
+							<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+								<!-- Indicators -->
+								<ol class="carousel-indicators">
+									<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+									<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+									<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+								</ol>
+
+								<!-- Wrapper for slides -->
+								<div class="carousel-inner" role="listbox">
+									<div class="item active">
+										<img src="..." alt="...">
+										<div class="carousel-caption">
+											...
+										</div>
+									</div>
+									<div class="item">
+										<img src="..." alt="...">
+										<div class="carousel-caption">
+											...
+										</div>
+									</div>
+									...
+								</div>
+
+								<!-- Controls -->
+								<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+									<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+									<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								</a>
+							</div>
 				</div>
 			</section>
 			<section id="section-4">
