@@ -13,8 +13,7 @@ $(document).ready(function(){
 		// each rule starts with the form input element's NAME attribute
 		rules: {
 			name: {
-				required: true,
-				maxlength: 45
+				required: true
 			},
 			email: {
 				email: true,
@@ -22,16 +21,14 @@ $(document).ready(function(){
 			},
 			message: {
 				required: true,
-				minlength: 2,
-				maxlength: 10
+				maxlength: 2000
 			}
 		},
 
 		// error messages to display to the end user
 		messages: {
 			name: {
-				required: "Y U have no name?!",
-				maxlength: "Yr name be too long."
+				required: "Please enter your name."
 			},
 			email: {
 				email: "Please enter a valid email address.",
@@ -39,7 +36,6 @@ $(document).ready(function(){
 			},
 			message: {
 				required: "Please enter a message.",
-				minlength: "Y u no say something?",
 				maxlength: "2000 characters max."
 			}
 		},

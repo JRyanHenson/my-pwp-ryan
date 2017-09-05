@@ -6,4 +6,7 @@ $(document).ready(function() {
 		lineColor: '#5cbdaa'
 	});
 	$('body').scrollspy({ target: '.navbar-fixed-top' })
+	$('.carousel').carousel({
+		interval: 7000
+	});
 });

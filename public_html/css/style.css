@@ -1,20 +1,18 @@
 nav {
-	/*padding-left: 4rem;*/
-	/*padding-right: 4rem;*/
 	font-size: medium;
 }
 
 #welcome {
 	position: absolute;
 	color: white;
-	top: 12rem;
+	top: 8rem;
 	/*left: 5vh;*/
 	padding: 2rem;
 }
 
 #particleground {
 	background-color: #000;
-	height: 40rem;
+	height: 35rem;
 }
 
 
@@ -68,6 +66,7 @@ nav {
 #section-3 {
 	background-color: white;
 	padding: 3rem 5rem;
+	height: 70rem;
 }
 
 #section-4{
@@ -87,4 +86,9 @@ footer {
 	top: 50%;
 	left: 50%;
 	display: none;
+}
+.carousel-caption {
+	position: sticky;
+	text-align: center;
+	color: black;
 }

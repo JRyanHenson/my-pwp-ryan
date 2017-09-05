@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -75,8 +74,8 @@
 								<li><a href="https://github.com/jryanhenson/" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
 								<li><a href="https://www.linkedin.com/in/j-ryan-henson-4415a2117/" target="_blank"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
 							</ul>
-						</div><!-- /.navbar-collapse -->
-					</div>
+						</div><!-- .navbar-collapse -->
+					</div><!-- container -->
 				</nav>
 		</header>
 		<main>
@@ -94,79 +93,84 @@
 								<h4>Information Security Consultant and Developer</h4>
 							</div>
 						</div>
-					</div>
-				</div>
+					</div><!-- row -->
+				</div><!-- container -->
 			</section>
 			<section id="section-2">
 				<div class="container-fluid">
 					<div class="row">
 						  <h2>About Me</h2>
-							<p>Hell of venmo schlitz stumptown edison bulb. Narwhal blue bottle fashion axe succulents occupy gluten-free. Mlkshk pour-over marfa,
-								normcore raclette prism copper mug photo booth neutra kickstarter letterpress leggings put a bird on it tofu. Flexitarian vegan air plant
-								williamsburg, etsy marfa gochujang. Cronut jianbing DIY occupy humblebrag hoodie. Microdosing shabby chic cred keytar, raclette
-								farm-to-table forage. Listicle chicharrones scenester squid.</p>
-					</div>
+							<p>My name is Ryan Henson. I am an information security professional and full stack developer. For the past ten years,
+								I have worked in various roles in the information technology. My career began in the United States Navy as a Cryptologic Technician.
+								After an honorable discharge, I moved into private industry where I have worked in network engineering, system administration, and
+								information security. Recently, I have begun to combine my experience in information security and full stack development to develop
+								tools to automate information security compliance processes. Contact me below if you think I can help you with your unique security and/or devlopment needs.</p>
+					</div><!-- row -->
 					<div class="row">
 						<div class="col-xs-6" data-animate="fadeIn" data-animate-delay="400">
 							<div class="icon-box"><i class="fa fa-desktop fa-4x"></i></div>
 							<h5>Web Development</h5>
-							<p>Tote bag shabby chic locavore lumbersexual umami, subway tile gastropub messenger bag pork belly. Kogi
-								narwhal scenester af, austin raw denim neutra cronut swag brooklyn retro polaroid palo santo. Four dollar toast
-								bushwick af skateboard etsy craft beer freegan, taiyaki slow-carb wolf. Normcore master cleanse street art, 90's
-								tilde enamel pin VHS williamsburg 8-bit tumeric. Gentrify gochujang keffiyeh, kinfolk small batch hot chicken helvetica.</p>
+							<p>In 2017, my passion for technology led me to enroll in a full stack web development program at Central New Mexico Community College.
+								The program allowed me to transition from a novice developer to an aspiring professional developer with a skillset that includes in-depth
+								experience in MySQL, PHP, JQuery, and Angular. Check out my portfolio below and let me know what you think.</p>
 						</div>
 						<div class="col-xs-6" data-animate="fadeInRight" data-animate-delay="400">
 							<div class="icon-box"><i class="fa fa-lock fa-4x"></i></div>
 							<h5>Information Security</h5>
-							<p>Hell of venmo schlitz stumptown edison bulb. Narwhal blue bottle fashion axe succulents occupy gluten-free. Mlkshk pour-over marfa,
-								normcore raclette prism copper mug photo booth neutra kickstarter letterpress leggings put a bird on it tofu. Flexitarian vegan air plant
-								williamsburg, etsy marfa gochujang. Cronut jianbing DIY occupy humblebrag hoodie. Microdosing shabby chic cred keytar, raclette
-								farm-to-table forage. Listicle chicharrones scenester squid.</p>
+							<p>I have five years of experience conducing vulnerability and risk assessments in accordance with compliance standards such as the National
+								Institute of Standards and Technology (NIST) Risk Management Framework (RMF). My experience includes analysis of various technologies in tactical
+								systems and enterprise networks. I also hold a Certified Information System Security Professional certification which I obtained in 2015.
+							</p>
 						</div>
-					</div>
+					</div><!-- row -->
+				</div><!-- container -->
 			</section>
 			<section id="section-3">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-xs-12">
-							<h2>Portfolio</h2>
+							<h2>Web Development Portfolio</h2>
 						</div>
-							<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-								<!-- Indicators -->
-								<ol class="carousel-indicators">
-									<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-									<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-									<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-								</ol>
-
-								<!-- Wrapper for slides -->
-								<div class="carousel-inner" role="listbox">
-									<div class="item active">
-										<img src="..." alt="...">
-										<div class="carousel-caption">
-											...
-										</div>
-									</div>
-									<div class="item">
-										<img src="..." alt="...">
-										<div class="carousel-caption">
-											...
-										</div>
-									</div>
-									...
+					</div>
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						</ol>
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox">
+							<div class="item active">
+								<a href="https://www.google.com" title="Link to ABQ Town Hall Website">
+									<img src="images/abqth.png" alt="ABQ Townhall" class="center-block">
+								</a>
+								<div class="carousel-caption">
+									<h3>ABQ Town Hall Website</h3>
+									<p>A concept website that allows constituents in the city of Albuquerque to communicate with their city council
+										representatives.</p>
 								</div>
-
-								<!-- Controls -->
-								<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-									<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-									<span class="sr-only">Previous</span>
-								</a>
-								<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-									<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-									<span class="sr-only">Next</span>
-								</a>
 							</div>
-				</div>
+							<div class="item">
+								<a href="https://www.colonellevels.net/" title="Link to Colonel Levels Website">
+								<img src="images/colonellevels.png" alt="Colonel levels" class="center-block">
+								</a>
+								<div class="carousel-caption">
+									<h3>Colonel Levels Website</h3>
+									<p>A concept web application with tools meant to automate information security compliance processes.</p>
+								</div>
+							</div>
+						</div>
+						<!-- Controls -->
+						<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+				</div><!-- container -->
 			</section>
 			<section id="section-4">
 			<div class="container-fluid">
@@ -213,7 +217,7 @@
 								</div>
 							</div>
 						<!-- Google reCAPTCHA -->
-							<div class="g-recaptcha" data-sitekey="6Lf1zyMUAAAAAC8Dzz3pD0Lqclnqni7rtyXh9Kpe"></div>
+							<div class="g-recaptcha" data-sitekey="6Ldd5S4UAAAAAImWRRtDNaltEqpTjk4pkWvHB44K"></div>
 							<button class="btn btn-default" type="reset">Reset</button>
 							<button class="btn btn-info" type="submit">Submit</button>
 						</form>
@@ -226,14 +230,13 @@
 						<div id="output-area"></div>
 					</div>
 				</div>
-			</div>
+			</div><!-- container -->
 			</section>
 		</main>
 	</body>
 		<footer>
 			<div class="footer">
 				Ryan Henson © 2017 | <a href="http://www.github.com/jryanhenson">github</a> | <a href="#section-3">portfolio</a> | <a href="#section-4">contact</a>
-			</div>
 			</div>
 		</footer>
 </html>
