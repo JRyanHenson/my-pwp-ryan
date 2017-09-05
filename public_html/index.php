@@ -2,6 +2,8 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<meta name="author" content="Ryan Henson">
+		<meta name="description" content="This website aims to briefly describe Ryan Henson and his professional experience."
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -101,26 +103,26 @@
 				<div class="container-fluid">
 					<div class="row">
 						  <h2>About Me</h2>
-							<p>My name is Ryan Henson. I am an information security professional and full stack developer. For the past ten years,
-								I have worked in various roles in the information technology field. My career began in the United States Navy as a cryptologic technician.
-								After an honorable discharge, I moved into private industry where I have worked in network engineering, system administration, and
-								information security. Recently, I have begun to combine my experience in information security and full stack development to develop
-								tools to automate information security compliance processes. Contact me below if you think I can help you with your unique security and/or devlopment needs.</p>
+							<p>My name is Ryan. I am an information security professional and full-stack developer. Over the last 10 years, I have served in various information technology and
+								security roles. My career began in the United States Navy as a Cryptologic Technician. After an honorable discharge, I moved into private industry where I have worked in
+								network engineering, system administration, and information security. I believe my experience and education speak to my commitment to being a well-rounded technologist.
+								Recently, I have begun to combine my experience in information security and full stack development to develop tools to automate information security compliance processes.
+								Contact me below if you think I can help you with your unique security and/or development needs.</p>
 					</div><!-- row -->
 					<div class="row">
-						<div class="col-xs-6" data-animate="fadeIn" data-animate-delay="400">
+						<div class="col-md-6" data-animate="fadeIn" title="Check Out My Web Development Experience Below" data-animate-delay="400">
 							<div class="icon-box"><i class="fa fa-desktop fa-4x"></i></div>
 							<h5>Web Development</h5>
-							<p>In 2017, my passion for technology led me to enroll in a full stack web development program at Central New Mexico Community College.
-								The program allowed me to transition from a novice developer to an aspiring professional developer with a skillset that includes in-depth
-								experience in MySQL, PHP, JQuery, and Angular. Check out my portfolio below and let me know what you think.</p>
+							<p>In 2017, my passion for technology led me to enroll in a full-stack web development intensive program at Central New Mexico Community College. The program allowed me to transition
+								from a novice developer to an aspiring professional developer with a skillset that includes in-depth experience in MySQL, PHP, JQuery, and Angular. Check out my portfolio below
+								and let me know what you think.</p>
 						</div><!-- row -->
-						<div class="col-xs-6" data-animate="fadeInRight" title="This is just pretty not a hyperlink" data-animate-delay="400">
+						<div class="col-md-6" data-animate="fadeInRight" title="Check Out My Information Security Experience Below" data-animate-delay="400">
 							<div class="icon-box"><i class="fa fa-lock fa-4x"></i></div>
 							<h5>Information Security</h5>
-							<p>For the past five years, I have been conducting vulnerability and risk assessments in accordance with compliance standards such as the National
-								Institute of Standards and Technology (NIST) Risk Management Framework (RMF). My experience includes analysis of various technologies in tactical
-								systems and enterprise networks. I also hold a Certified Information System Security Professional (CISSP) certification which I obtained in 2015.</p>
+							<p>For the past 5 years, I have been conducting vulnerability and risk assessments in accordance with compliance standards such as the National Institute of Standards and Technology (NIST)
+								Risk Management Framework (RMF). My experience includes analysis of various technologies on tactical systems and enterprise networks. I also hold a Certified Information System Security
+								Professional (CISSP) certification which I obtained in 2015.</p>
 						</div><!-- row -->
 					</div><!-- row -->
 				</div><!-- container -->
@@ -134,13 +136,15 @@
 						</div>
 					</div><!-- row -->
 					<div class="row" id="portfolio">
-						<div class="col-xs-6"><a href="https://www.google.com" title="Link to ABQ Town Hall Website" class="thumbnail" data-fancybox="gallery"><img src="images/abqth.png" alt="Albuquerque Town Hall" class="image-responsive"></a>
-							<h5>ABQ Town Hall Website</h5>
-							<p>A concept website that allows constituents in the city of Albuquerque to communicate with their city council representatives.</p>
+						<div class="col-md-6"><a href="https://www.google.com" title="Link to ABQ Town Hall Website" class="thumbnail" data-fancybox="gallery"><img src="images/abqth.png" alt="Albuquerque Town Hall" class="image-responsive"></a>
+							<h5>ABQ Town Hall Website: <a href="https://abqtownhall.com" title="A link to ABQ Town Hall website">www.abqtownhall.com</a></h5>
+							<p>This website allows constituents in the city of Albuquerque to communicate with their city council representatives. My group and I used object oriented and agile principals to develop this site with an
+								Angular, PHP, Linux and MySQL stack.</p>
 						</div>
-						<div class="col-xs-6"><a href="https://colonellevels.net" title="Link to Colonel Levels Website" class="thumbnail" data-fancybox="gallery"><img src="images/colonellevels.png" alt="Colonel Levels" class="image-responsive"></a>
-							<h5>Colonel Levels Website</h5>
-							<p>A concept web application with tools meant to automate information security compliance processes.</p>
+						<div class="col-md-6"><a href="https://colonellevels.net" title="Link to Colonel Levels Website" class="thumbnail" data-fancybox="gallery"><img src="images/colonellevels.png" alt="Colonel Levels" class="image-responsive"></a>
+							<h5>Colonel Levels Website: <a href="https://colonellevels.net" title="A link to Colonel Levels">www.colonellevels.net</a></h5>
+							<p>This web application is meant to automate information security compliance processes. It was developed as a proof of concept with my team at American Systems Corporation. The team used a Python, Django, MDBootStrap,
+								Linux, and PostgreSQL stack.</p>
 						</div>
 					</div><!-- row -->
 				</div><!-- container -->
