@@ -5,8 +5,4 @@ $(document).ready(function() {
 		dotColor: '#5cbdaa',
 		lineColor: '#5cbdaa'
 	});
-	$('body').scrollspy({ target: '.navbar-fixed-top' })
-	$('.carousel').carousel({
-		interval: 7000
-	});
 });

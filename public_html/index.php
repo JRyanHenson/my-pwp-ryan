@@ -101,7 +101,7 @@
 					<div class="row">
 						  <h2>About Me</h2>
 							<p>My name is Ryan Henson. I am an information security professional and full stack developer. For the past ten years,
-								I have worked in various roles in the information technology. My career began in the United States Navy as a Cryptologic Technician.
+								I have worked in various roles in the information technology field. My career began in the United States Navy as a cryptologic technician.
 								After an honorable discharge, I moved into private industry where I have worked in network engineering, system administration, and
 								information security. Recently, I have begun to combine my experience in information security and full stack development to develop
 								tools to automate information security compliance processes. Contact me below if you think I can help you with your unique security and/or devlopment needs.</p>
@@ -119,7 +119,7 @@
 							<h5>Information Security</h5>
 							<p>I have five years of experience conducing vulnerability and risk assessments in accordance with compliance standards such as the National
 								Institute of Standards and Technology (NIST) Risk Management Framework (RMF). My experience includes analysis of various technologies in tactical
-								systems and enterprise networks. I also hold a Certified Information System Security Professional certification which I obtained in 2015.
+								systems and enterprise networks. I also hold a Certified Information System Security Professional (CISSP) certification which I obtained in 2015.
 							</p>
 						</div>
 					</div><!-- row -->
@@ -129,47 +129,16 @@
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-xs-12">
-							<h2>Web Development Portfolio</h2>
+							<h2>My Web Development Portfolio</h2>
+							<h3>Click on the links below to see my work</h3>
 						</div>
-					</div>
-					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-						<!-- Indicators -->
-						<ol class="carousel-indicators">
-							<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-							<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-						</ol>
-						<!-- Wrapper for slides -->
-						<div class="carousel-inner" role="listbox">
-							<div class="item active">
-								<a href="https://www.google.com" title="Link to ABQ Town Hall Website">
-									<img src="images/abqth.png" alt="ABQ Townhall" class="center-block">
-								</a>
-								<div class="carousel-caption">
-									<h3>ABQ Town Hall Website</h3>
-									<p>A concept website that allows constituents in the city of Albuquerque to communicate with their city council
-										representatives.</p>
-								</div>
-							</div>
-							<div class="item">
-								<a href="https://www.colonellevels.net/" title="Link to Colonel Levels Website">
-								<img src="images/colonellevels.png" alt="Colonel levels" class="center-block">
-								</a>
-								<div class="carousel-caption">
-									<h3>Colonel Levels Website</h3>
-									<p>A concept web application with tools meant to automate information security compliance processes.</p>
-								</div>
-							</div>
+					</div><!-- row -->
+					<div class="row">
+						<div class="col-xs-6"><a href="https://www.google.com" title="Link to ABQ Town Hall Website" class="thumbnail" data-fancybox="gallery" data-caption="A concept website that allows constituents in the city of Albuquerque to communicate with their city council representatives."><img src="images/abqth.png" alt="Albuquerque Town Hall" class="image-responsive"></a>
 						</div>
-						<!-- Controls -->
-						<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-							<span class="sr-only">Previous</span>
-						</a>
-						<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-							<span class="sr-only">Next</span>
-						</a>
-					</div>
+						<div class="col-xs-6"><a href="https://colonellevels.net" title="Link to Colonel Levels Website" class="thumbnail" data-fancybox="gallery" data-caption="A concept web application with tools meant to automate information security compliance processes."><img src="images/colonellevels.png" alt="Colonel Levels" class="image-responsive"></a>
+						</div>
+					</div><!-- row -->
 				</div><!-- container -->
 			</section>
 			<section id="section-4">
