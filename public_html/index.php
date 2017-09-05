@@ -84,7 +84,7 @@
 					<div id="welcome">
 						<div class="row">
 							<div class="col-xs-4 col-md-5">
-								<img src="https://www.fillmurray.com/150/150" class="img-responsive center-block img-rounded" alt="Responsive image">
+								<img src="https://www.fillmurray.com/150/150" class="img-responsive center-block img-circle" alt="Responsive image">
 							</div>
 						</div>
 						<div class="row">
@@ -113,15 +113,14 @@
 							<p>In 2017, my passion for technology led me to enroll in a full stack web development program at Central New Mexico Community College.
 								The program allowed me to transition from a novice developer to an aspiring professional developer with a skillset that includes in-depth
 								experience in MySQL, PHP, JQuery, and Angular. Check out my portfolio below and let me know what you think.</p>
-						</div>
-						<div class="col-xs-6" data-animate="fadeInRight" data-animate-delay="400">
+						</div><!-- row -->
+						<div class="col-xs-6" data-animate="fadeInRight" title="This is just pretty not a hyperlink" data-animate-delay="400">
 							<div class="icon-box"><i class="fa fa-lock fa-4x"></i></div>
 							<h5>Information Security</h5>
-							<p>I have five years of experience conducing vulnerability and risk assessments in accordance with compliance standards such as the National
+							<p>For the past five years, I have been conducting vulnerability and risk assessments in accordance with compliance standards such as the National
 								Institute of Standards and Technology (NIST) Risk Management Framework (RMF). My experience includes analysis of various technologies in tactical
-								systems and enterprise networks. I also hold a Certified Information System Security Professional (CISSP) certification which I obtained in 2015.
-							</p>
-						</div>
+								systems and enterprise networks. I also hold a Certified Information System Security Professional (CISSP) certification which I obtained in 2015.</p>
+						</div><!-- row -->
 					</div><!-- row -->
 				</div><!-- container -->
 			</section>
@@ -130,13 +129,17 @@
 					<div class="row">
 						<div class="col-xs-12">
 							<h2>My Web Development Portfolio</h2>
-							<h3>Click on the links below to see my work</h3>
+							<h4>Click on the links below to see some of my work</h4>
 						</div>
 					</div><!-- row -->
-					<div class="row">
-						<div class="col-xs-6"><a href="https://www.google.com" title="Link to ABQ Town Hall Website" class="thumbnail" data-fancybox="gallery" data-caption="A concept website that allows constituents in the city of Albuquerque to communicate with their city council representatives."><img src="images/abqth.png" alt="Albuquerque Town Hall" class="image-responsive"></a>
+					<div class="row" id="portfolio">
+						<div class="col-xs-6"><a href="https://www.google.com" title="Link to ABQ Town Hall Website" class="thumbnail" data-fancybox="gallery"><img src="images/abqth.png" alt="Albuquerque Town Hall" class="image-responsive"></a>
+							<h5>ABQ Town Hall Website</h5>
+							<p>A concept website that allows constituents in the city of Albuquerque to communicate with their city council representatives.</p>
 						</div>
-						<div class="col-xs-6"><a href="https://colonellevels.net" title="Link to Colonel Levels Website" class="thumbnail" data-fancybox="gallery" data-caption="A concept web application with tools meant to automate information security compliance processes."><img src="images/colonellevels.png" alt="Colonel Levels" class="image-responsive"></a>
+						<div class="col-xs-6"><a href="https://colonellevels.net" title="Link to Colonel Levels Website" class="thumbnail" data-fancybox="gallery"><img src="images/colonellevels.png" alt="Colonel Levels" class="image-responsive"></a>
+							<h5>Colonel Levels Website</h5>
+							<p>A concept web application with tools meant to automate information security compliance processes.</p>
 						</div>
 					</div><!-- row -->
 				</div><!-- container -->
@@ -144,7 +147,7 @@
 			<section id="section-4">
 			<div class="container-fluid">
 				<h2>Contact Section</h2>
-				<h4>Tell me about your unique security or development needs</h4>
+				<h4>Tell me about your unique security and/or development needs</h4>
 				<div class="row">
 					<div class="col-xs-12">
 						<!-- BEGIN CONTACT FORM -->
@@ -191,14 +194,14 @@
 							<button class="btn btn-info" type="submit">Submit</button>
 						</form>
 						<!-- END CONTACT FORM-->
-					</div><!-- /.col-sm-6 -->
-				</div><!-- /.row -->
+					</div>
+				</div><!-- row -->
 			<!-- EMPTY FORM OUTPUT AREA -->
 				<div class="row">
 					<div class="col-xs-12">
 						<div id="output-area"></div>
 					</div>
-				</div>
+				</div><!-- row -->
 			</div><!-- container -->
 			</section>
 		</main>
