@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta name="author" content="Ryan Henson">
-		<meta name="description" content="This website aims to briefly describe Ryan Henson and his professional experience."
+		<meta name="description" content="This website aims to briefly describe Ryan Henson and his professional experience.">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -42,7 +42,7 @@
 		<script src="js/jquery.particleground.min.js" type="text/javascript"></script>
 
 		<!-- not an easter egg -->
-		<script src="https://cdn.rawgit.com/mikeflynn/egg.js/master/egg.min.js"> type="text/javascript" </script>
+		<script src="https://cdn.rawgit.com/mikeflynn/egg.js/master/egg.min.js" type="text/javascript"> </script>
 		<script src="js/egg.js" type="text/javascript"></script>
 
 		<!-- custom js -->
@@ -54,7 +54,7 @@
 		<title>Ryan Henson</title>
 	</head>
 	<body data-spy="scroll" data-target=".navbar-fixed-top">
-		<img id="egggif" src="https://media.giphy.com/media/DpXqHdILXRRDi/giphy.gif"/>
+		<img id="egggif" src="https://media.giphy.com/media/DpXqHdILXRRDi/giphy.gif" alt="this is definitely not an easter egg"/>
 		<header>
 				<nav class="navbar navbar-default navbar-fixed-top">
 					<div class="container-fluid">
@@ -69,9 +69,9 @@
 						<div class="collapse navbar-collapse" id="main-menu">
 							<ul class="nav navbar-nav navbar-left">
 								<li><a href="#">Home</a></li>
-								<li><a href="#section-2">About Me</a></li>
-								<li><a href="#section-3">Portfolio</a></li>
-								<li><a href="#section-4">Contact</a></li>
+								<li><a href="#about">About Me</a></li>
+								<li><a href="#portfolio">Portfolio</a></li>
+								<li><a href="#contact">Contact</a></li>
 							</ul>
 							<ul class="nav navbar-nav navbar-right">
 								<li><a href="https://github.com/jryanhenson/" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
@@ -87,7 +87,7 @@
 					<div id="welcome">
 						<div class="row">
 							<div class="col-xs-4 col-md-5">
-								<img src="https://www.fillmurray.com/150/150" class="img-responsive center-block img-circle" alt="Responsive image">
+								<img src="images/ryan.jpg" height="200" width="250" class="img-responsive center-block img-circle" alt="Responsive image">
 							</div>
 						</div>
 						<div class="row">
@@ -99,35 +99,27 @@
 					</div><!-- row -->
 				</div><!-- container -->
 			</section>
-			<section id="section-2">
+			<section id="about">
 				<div class="container-fluid">
 					<div class="row">
 						  <h2>About Me</h2>
-							<p>My name is Ryan. I am an information security professional and full-stack developer. Over the last 10 years, I have served in various information technology and
-								security roles. My career began in the United States Navy as a Cryptologic Technician. After an honorable discharge, I moved into private industry where I have worked in
-								network engineering, system administration, and information security. I believe my experience and education speak to my commitment to being a well-rounded technologist.
-								Recently, I have begun to combine my experience in information security and full stack development to develop tools to automate information security compliance processes.
-								Contact me below if you think I can help you with your unique security and/or development needs.</p>
+							<p>I am an information security professional and a full-stack developer. Over the last 10 years I have served in various information technology and security roles. My career began in the United States Navy as a Cryptologic Technician. After an honorable discharge, I moved into private industry where I have worked in network engineering, system administration, and information security. I believe my experience and education speak to my commitment to being a well-rounded technologist. Recently, I have begun to combine my experience in information security and full stack development to develop tools to automate information security compliance processes. Contact me below if you think I can help you with your unique security and/or development needs.</p>
 					</div><!-- row -->
 					<div class="row">
 						<div class="col-md-6" data-animate="fadeIn" title="Check Out My Web Development Experience Below" data-animate-delay="400">
 							<div class="icon-box"><i class="fa fa-desktop fa-4x"></i></div>
 							<h5>Web Development</h5>
-							<p>In 2017, my passion for technology led me to enroll in a full-stack web development intensive program at Central New Mexico Community College. The program allowed me to transition
-								from a novice developer to an aspiring professional developer with a skillset that includes in-depth experience in MySQL, PHP, JQuery, and Angular. Check out my portfolio below
-								and let me know what you think.</p>
+							<p>In 2017, my passion for technology led me to enroll in a full-stack web development intensive program at Central New Mexico Community College. The program allowed me to transition from a novice developer to an aspiring professional developer with a skillset that includes in-depth experience in MySQL, PHP, JQuery, and Angular. Check out my portfolio below and let me know what you think.</p>
 						</div><!-- row -->
 						<div class="col-md-6" data-animate="fadeInRight" title="Check Out My Information Security Experience Below" data-animate-delay="400">
 							<div class="icon-box"><i class="fa fa-lock fa-4x"></i></div>
 							<h5>Information Security</h5>
-							<p>For the past 5 years, I have been conducting vulnerability and risk assessments in accordance with compliance standards such as the National Institute of Standards and Technology (NIST)
-								Risk Management Framework (RMF). My experience includes analysis of various technologies on tactical systems and enterprise networks. I also hold a Certified Information System Security
-								Professional (CISSP) certification which I obtained in 2015.</p>
+							<p>For the past 5 years, I have been conducting vulnerability and risk assessments in accordance with compliance standards such as the National Institute of Standards and Technology (NIST) Risk Management Framework (RMF). My experience includes analysis of various technologies on tactical systems and enterprise networks. I also hold a Certified Information System Security Professional (CISSP) certification, which I obtained in 2015.</p>
 						</div><!-- row -->
 					</div><!-- row -->
 				</div><!-- container -->
 			</section>
-			<section id="section-3">
+			<section id="portfolio">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-xs-12">
@@ -135,8 +127,8 @@
 							<h4>Click on the links below to see some of my work</h4>
 						</div>
 					</div><!-- row -->
-					<div class="row" id="portfolio">
-						<div class="col-md-6"><a href="https://www.google.com" title="Link to ABQ Town Hall Website" class="thumbnail" data-fancybox="gallery"><img src="images/abqth.png" alt="Albuquerque Town Hall" class="image-responsive"></a>
+					<div class="row" id="web-description">
+						<div class="col-md-6"><a href="https://www.abqtownhall.com" title="Link to ABQ Town Hall Website" class="thumbnail" data-fancybox="gallery"><img src="images/abqth.png" alt="Albuquerque Town Hall" class="image-responsive"></a>
 							<h5>ABQ Town Hall Website: <a href="https://abqtownhall.com" title="A link to ABQ Town Hall website">www.abqtownhall.com</a></h5>
 							<p>This website allows constituents in the city of Albuquerque to communicate with their city council representatives. My group and I used object oriented and agile principals to develop this site with an
 								Angular, PHP, Linux and MySQL stack.</p>
@@ -149,9 +141,9 @@
 					</div><!-- row -->
 				</div><!-- container -->
 			</section>
-			<section id="section-4">
+			<section id="contact">
 			<div class="container-fluid">
-				<h2>Contact Section</h2>
+				<h2>Contact Me</h2>
 				<h4>Tell me about your unique security and/or development needs</h4>
 				<div class="row">
 					<div class="col-xs-12">
@@ -210,10 +202,10 @@
 			</div><!-- container -->
 			</section>
 		</main>
-	</body>
 		<footer>
 			<div class="footer">
-				Ryan Henson © 2017 | <a href="http://www.github.com/jryanhenson">github</a> | <a href="#section-3">portfolio</a> | <a href="#section-4">contact</a>
+				Ryan Henson © 2017 | <a href="http://www.github.com/jryanhenson">github</a> | <a href="#portfolio">portfolio</a> | <a href="#contact">contact</a>
 			</div>
 		</footer>
+	</body>
 </html>
