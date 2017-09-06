@@ -1,3 +1,4 @@
+//easter egg jquery code
 var egg = new Egg();
 egg.addCode("up,up,down,down,left,right,left,right,b,a", function() {
 	jQuery('#egggif').fadeIn(500, function() {
